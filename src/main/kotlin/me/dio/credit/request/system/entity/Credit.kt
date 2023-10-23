@@ -15,6 +15,6 @@ class Credit (
         @Column(nullable = false) val dayFirstInstallment: LocalDate,
         @Column(nullable = false) val numberOfInstallments: Int = 0,
         @Enumerated val status: Status = Status.IN_PROGRESS, // declara como Enum
-        @ManyToOne val customer: Customer? = null, // relacionamento inverso ao da tabela "Customer"
+        @ManyToOne var customer: Customer? = null, // relacionamento inverso ao da tabela "Customer"
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Long? = null // chave primária
 )
