@@ -5,9 +5,9 @@ spring:
     password: gvf
   jpa:
     show-sql: true # para apresentar os comandos SQL no console
-    hibernate:
-      properties:
-          hibernate.format_sql: true
+    # hibernate:
+    properties:
+      hibernate.format_sql: true
     # hibernate:
     #   ddl-auto: create-drop # para automatizar o create e drop do H2
   h2:

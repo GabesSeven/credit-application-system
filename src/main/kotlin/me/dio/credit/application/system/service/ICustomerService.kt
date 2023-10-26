@@ -1,6 +1,6 @@
-package me.dio.credit.request.system.service
+package me.dio.credit.application.system.service
 
-import me.dio.credit.request.system.entity.Customer
+import me.dio.credit.application.system.entity.Customer
 import java.util.*
 
 interface ICustomerService {

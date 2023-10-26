@@ -1,8 +1,8 @@
-package me.dio.credit.request.system.service.impl
+package me.dio.credit.application.system.service.impl
 
-import me.dio.credit.request.system.entity.Credit
-import me.dio.credit.request.system.repository.CreditRepository
-import me.dio.credit.request.system.service.ICreditService
+import me.dio.credit.application.system.entity.Credit
+import me.dio.credit.application.system.repository.CreditRepository
+import me.dio.credit.application.system.service.ICreditService
 import org.springframework.stereotype.Service
 import java.lang.RuntimeException
 import java.util.*

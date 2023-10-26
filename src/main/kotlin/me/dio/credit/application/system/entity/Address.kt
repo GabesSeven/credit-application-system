@@ -1,4 +1,4 @@
-package me.dio.credit.request.system.entity
+package me.dio.credit.application.system.entity
 
 import jakarta.persistence.Column
 import jakarta.persistence.Embeddable

@@ -1,6 +1,6 @@
-package me.dio.credit.request.system.service
+package me.dio.credit.application.system.service
 
-import me.dio.credit.request.system.entity.Credit
+import me.dio.credit.application.system.entity.Credit
 import java.util.UUID
 
 interface ICreditService {

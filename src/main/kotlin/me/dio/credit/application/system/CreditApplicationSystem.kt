@@ -14,7 +14,11 @@
 // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.named-queries
 // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query
 
-package me.dio.credit.request.system
+// https://javabahia.github.io/falando-sobre-dto/
+
+// https://www.baeldung.com/java-validation
+
+package me.dio.credit.application.system
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
