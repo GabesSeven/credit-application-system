@@ -1,3 +1,4 @@
+// -------------------- CONTRUINDO (BANCO DE DADOS, CAMADA DE SERVIÇO, CAMADA DE PERSISTÊNCIA, CAMADA CONTROLLER E TRATAMENTO DE EXCEÇÕES) --------------------
 // https://github.dev/cami-la/credit-application-system/tree/master/src/main
 
 // https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
@@ -17,6 +18,19 @@
 // https://javabahia.github.io/falando-sobre-dto/
 
 // https://www.baeldung.com/java-validation
+
+// -------------------- DOCUMENTANDO E TESTANDO --------------------
+// https://www.baeldung.com/spring-rest-openapi-documentation
+// https://springdoc.org/migrating-from-springfox.html
+
+
+// Deve ser configurado o application.yml para executar um banco de dados específico para teste, para não alterar os dados do banco em produção
+// https://www.devmedia.com.br/tdd-fundamentos-do-desenvolvimento-orientado-a-testes/28151
+// https://mockk.io/
+// https://assertj.github.io/doc/
+// https://junit.org/junit5/docs/current/user-guide/#writing-tests-assertions
+
+
 
 package me.dio.credit.application.system
 
