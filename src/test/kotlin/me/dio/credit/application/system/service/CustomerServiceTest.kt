@@ -19,7 +19,7 @@ import org.springframework.test.context.ActiveProfiles
 import java.math.BigDecimal
 import java.util.*
 
-//@ActiveProfiles("test") // para reconhecer o application-test.properties
+//@ActiveProfiles("test") // para reconhecer o application-test.properties, mas somente para testes de integração, porque testes unitários não sobem o Spring ao testar
 @ExtendWith(MockKExtension::class) // para utilizar Mockk para mocar os testes
 class CustomerServiceTest {
     @MockK lateinit var customerRepository: CustomerRepository // para mocar a ação do Repository, ou seja criar um fake somente para teste
