@@ -1,56 +1,66 @@
-<h1 align="center">API para Sistema de Avaliação de Créditos</h1>
-<p><strong>API REST Spring Boot</strong> e <strong>Kotlin</strong> que simula um sistema de análise de solicitação de crédito. O objetivo é a empresa fornecer aos seus clientes as seguintes funcionalidades:</p>
+# API para Sistema de Avaliação de Créditos
+<p><strong>API REST Spring Boot</strong> e <strong>Kotlin</strong> que simula um sistema de análise de solicitação de crédito. O objetivo é a empresa fornecer aos seus clientes.</p>
 
-<ul>
-<li><h3>Cliente (Customer):</h3>
+## Execução
+<p>
+  No Terminal/Console:
+<ol>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
+	<li>Entre na pasta raiz do projeto: <code>cd <nome-pasta-raiz></code></li> 
+	<li>Execute o comando: <code>./gradlew bootrun</code></li>
+</ol>
+</p>
+
+## Funcionalidades
+
+### Cliente (Customer):
   <ul>
     <li><strong>Cadastrar:</strong>
-         <ol>
+         <ul>
             <li><strong>Request: </strong><em>firstName, lastName, cpf, income, email, password, zipCode e street</em></li>
             <li><strong>Response: </strong><em>String</em></li>
-        </ol>
+        </ul>
     </li>
-  <li><strong>Editar cadastro:</strong>
-    <ol>
-      <li><strong>Request: </strong><em>id, firstName, lastName, income, zipCode, street</em></li>
-      <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
-    </ol>
-  </li>  
-  <li><strong>Visualizar perfil:</strong>
-    <ol>
-      <li><strong>Request: </strong> <em>id</em></li>
-      <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
-    </ol> 
-  </li>
-  <li><strong>Deletar cadastro:</strong>
-    <ol>
-      <li><strong>Request: </strong><em>id</em></li>
-      <li><strong>Response: </strong><em>sem retorno</em></li>
-    </ol>
-  </li>
+    <li><strong>Editar cadastro:</strong>
+      <ul>
+        <li><strong>Request: </strong><em>id, firstName, lastName, income, zipCode, street</em></li>
+        <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
+      </ul>
+    </li>  
+    <li><strong>Visualizar perfil:</strong>
+      <ul>
+        <li><strong>Request: </strong> <em>id</em></li>
+        <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
+      </ul> 
+    </li>
+    <li><strong>Deletar cadastro:</strong>
+      <ul>
+        <li><strong>Request: </strong><em>id</em></li>
+        <li><strong>Response: </strong><em>sem retorno</em></li>
+      </ul>
+    </li>
   </ul>
-  </li>
-  <li><h3>Solicitação de Empréstimo (Credit):</h3>
+  
+### Solicitação de Empréstimo (Credit):
   <ul>
     <li><strong>Cadastrar:</strong>
-         <ol>
-            <li><strong>Request: </strong><em>creditValue, dayFirstOfInstallment, numberOfInstallments e customerId</em></li>
-            <li><strong>Response: </strong><em>String</em></li>
-        </ol>
+       <ul>
+          <li><strong>Request: </strong><em>creditValue, dayFirstOfInstallment, numberOfInstallments e customerId</em></li>
+          <li><strong>Response: </strong><em>String</em></li>
+      </ul>
     </li>
     <li><strong>Listar todas as solicitações de emprestimo de um cliente:</strong>
-    <ol>
-      <li><strong>Request: </strong><em>customerId</em></li>
-      <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment</em></li>
-    </ol> 
+      <ul>
+        <li><strong>Request: </strong><em>customerId</em></li>
+        <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment</em></li>
+      </ul> 
     </li>
     <li><strong>Visualizar um emprestimo:</strong>
-    <ol>
-      <li><strong>Request: </strong><em>customerId e creditCode</em></li>
-      <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment, status, emailCustomer e incomeCustomer</em></li>
-    </ol> 
+      <ul>
+        <li><strong>Request: </strong><em>customerId e creditCode</em></li>
+        <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment, status, emailCustomer e incomeCustomer</em></li>
+      </ul> 
     </li>
-</ul>
 
 <figure>
 <p align="center">
