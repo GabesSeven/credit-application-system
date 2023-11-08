@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:credit_request_system_db # para mudar o caminho padr?o do banco de dados jdbc:h2:mem:f54e3f88-64db-41c7-8ac2-bcaf3ca00250
-    username: gvf
-    password: gvf
+    url: jdbc:h2:mem:credit_application_system_db # para mudar o caminho padrao do banco de dados jdbc:h2:mem:f54e3f88-64db-41c7-8ac2-bcaf3ca00250
+    username: gabes
+    password: gabes
   jpa:
     show-sql: true # para apresentar os comandos SQL no console
     # hibernate:
@@ -16,7 +16,7 @@ spring:
       path: /h2-console
       settings:
         trace: false
-        web-allow-other: false
+        web-allow-others: false
 springdoc:
   swagger-ui:
     path: /swagger-ui.html

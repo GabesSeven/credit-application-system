@@ -33,16 +33,14 @@
 
 // teste de integração sobe o Spring e testa a comunicação com terceiros
 // testes de integração não precisa testar as funções do JPA, somente as funções criadas pelo usuário
-
-
 package me.dio.credit.application.system
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CreditRequestSystemApplication
+class CreditApplicationSystemApplication
 
 fun main(args: Array<String>) {
-	runApplication<CreditRequestSystemApplication>(*args)
+	runApplication<CreditApplicationSystemApplication>(*args)
 }

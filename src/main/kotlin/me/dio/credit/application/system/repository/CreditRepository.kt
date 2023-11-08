@@ -8,11 +8,10 @@ import java.util.*
 
 @Repository
 interface CreditRepository: JpaRepository<Credit, Long> {
+  // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.named-queries
+  fun findByCreditCode(creditCode: UUID) : Credit?
 
-    // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.named-queries
-    fun findByCreditCode(creditCode: UUID) : Credit?
-
-    // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query
-    @Query(value = "SELECT * FROM CREDIT WHERE CUSTOMER_ID = ?1", nativeQuery = true)
-    fun findAllByCustomerId(customerId: Long): List<Credit>
+  // https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query
+  @Query(value = "SELECT * FROM CREDIT WHERE CUSTOMER_ID = ?1", nativeQuery = true)
+  fun findAllByCustomerId(customerId: Long): List<Credit>
 }
