@@ -1,4 +1,5 @@
 # API para Sistema de Avaliação de Créditos
+<br>
 <p><strong>API REST Spring Boot</strong> e <strong>Kotlin</strong> que simula um sistema de análise de solicitação de crédito. O objetivo é a empresa fornecer aos seus clientes.</p>
 
 <br>
@@ -6,7 +7,7 @@
 <br>
 
 ## Introdução 📜
-
+<br>
 <figure>
 <p align="center">
   <img src="https://i.imgur.com/1Ea5PH3.png" height="350" width="600" alt="Arquitetura em 3 camadas Projeto Spring Boot"/><br>
@@ -19,7 +20,7 @@
 <br>
 
 ## Execução 🏃‍♀️
-
+<br>
 <p>
   No Terminal/Console:
 <ol>
@@ -34,8 +35,9 @@
 <br>
 
 ## Funcionalidades 🛠️
-
+<br>
 ### Cliente (Customer):
+<br>
   <ul>
     <li><strong>Cadastrar:</strong>
          <ul>
@@ -64,6 +66,7 @@
   </ul>
   
 ### Solicitação de Empréstimo (Credit):
+<br>
   <ul>
     <li><strong>Cadastrar:</strong>
        <ul>
@@ -99,6 +102,7 @@
 <br>
 
 ## Links Úteis 🔗
+<br>
 <ul>
   <li>https://start.spring.io/#!type=gradle-project&language=kotlin&platformVersion=3.0.3&packaging=jar&jvmVersion=17&groupId=me.dio&artifactId=credit-application-system&name=credit-application-system&description=Credit%20Application%20System%20with%20Spring%20Boot%20and%20Kotlin&packageName=me.dio.credit-application-system&dependencies=web,validation,data-jpa,flyway,h2</li>
   <li>https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html</li>
@@ -116,6 +120,7 @@
 <br>
 
 ## Tecnologias utilizadas 💾
+<br>
 
 ![GIT](https://img.shields.io/badge/Java-F05032?logo=git&logoColor=white&style=for-the-badge) &nbsp;
 
