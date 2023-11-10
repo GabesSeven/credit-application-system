@@ -1,6 +1,20 @@
 # API para Sistema de Avaliação de Créditos
 <p><strong>API REST Spring Boot</strong> e <strong>Kotlin</strong> que simula um sistema de análise de solicitação de crédito. O objetivo é a empresa fornecer aos seus clientes.</p>
 
+<br>
+<hr>
+<br>
+
+## Introdução 
+
+
+<figure>
+<p align="center">
+  <img src="https://i.imgur.com/1Ea5PH3.png" height="350" width="600" alt="Arquitetura em 3 camadas Projeto Spring Boot"/><br>
+  Arquitetura em 3 camadas Projeto Spring Boot
+</p>
+</figure>
+
 ## Execução
 <p>
   No Terminal/Console:
@@ -10,6 +24,10 @@
 	<li>Execute o comando: <code>./gradlew bootrun</code></li>
 </ol>
 </p>
+
+<br>
+<hr>
+<br>
 
 ## Funcionalidades
 
@@ -62,21 +80,21 @@
       </ul> 
     </li>
 
+<br>
+<br>
+
 <figure>
 <p align="center">
   <img src="https://i.imgur.com/7phya16.png" height="450" width="650" alt="API para Sistema de Avaliação de Créditos"/><br>
   Diagrama UML Simplificado de uma API para Sistema de Avaliação de Crédito
 </p>
 </figure>
-<figure>
-<p align="center">
-  <img src="https://i.imgur.com/1Ea5PH3.png" height="350" width="600" alt="Arquitetura em 3 camadas Projeto Spring Boot"/><br>
-  Arquitetura em 3 camadas Projeto Spring Boot
-</p>
-</figure>
 
+<br>
 <hr>
-<h3>Links Úteis</h3>
+<br>
+
+## Links Úteis
 <ul>
   <li>https://start.spring.io/#!type=gradle-project&language=kotlin&platformVersion=3.0.3&packaging=jar&jvmVersion=17&groupId=me.dio&artifactId=credit-application-system&name=credit-application-system&description=Credit%20Application%20System%20with%20Spring%20Boot%20and%20Kotlin&packageName=me.dio.credit-application-system&dependencies=web,validation,data-jpa,flyway,h2</li>
   <li>https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html</li>
@@ -89,8 +107,7 @@
   <li>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#glossary</li>  
 </ul>
 
-
-<h1>Tecnologias utilizadas</h1>
+## Tecnologias utilizadas
 <p align="center">
      <a alt="Java">
         <img src="https://img.shields.io/badge/Java-v17-blue.svg" />
@@ -112,3 +129,36 @@
     </a>
 </p>
 
+## Tecnologias utilizadas 👩🏻‍💻
+
+![GIT](https://img.shields.io/badge/Java-F05032?logo=git&logoColor=white&style=for-the-badge) &nbsp;
+
+![GITHUB](https://img.shields.io/badge/github-181717?logo=git&logoColor=white&style=for-the-badge) &nbsp;
+
+![KOTLIN](https://img.shields.io/badge/kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge) &nbsp;
+
+![JAVA](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white&style=for-the-badge) &nbsp;
+
+![GRADLE](https://img.shields.io/badge/gradle-02303A?logo=gradle&logoColor=white&style=for-the-badge) &nbsp;
+
+![SPRING](https://img.shields.io/badge/spring-6DB33F?logo=spring&logoColor=white&style=for-the-badge) &nbsp;
+
+![SPRING BOOT](https://img.shields.io/badge/springboot-6DB33F?logo=springboot&logoColor=white&style=for-the-badge) &nbsp;
+
+![SWAGGER](https://img.shields.io/badge/swagger-85EA2D?logo=swagger&logoColor=white&style=for-the-badge) &nbsp;
+
+![H2 DATABASE](https://img.shields.io/badge/databricks-FF3621?logo=databricks&logoColor=white&style=for-the-badge) &nbsp;
+
+![HIBERNATE](https://img.shields.io/badge/hibernate-59666C?logo=hibernate&logoColor=white&style=for-the-badge) &nbsp;
+
+![FLYWAY](https://img.shields.io/badge/flyway-CC0200?logo=flyway&logoColor=white&style=for-the-badge) &nbsp;
+
+
+<br>
+<hr>
+<br>
+
+## 🧑‍💻 Developer
+
+| [<img src="https://avatars.githubusercontent.com/u/37443722?v=4" width=115><br><sub>Gabriel Ferreira</sub>](https://github.com/GabesSeven)
+| :---: 
