@@ -111,6 +111,10 @@
   <li>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#glossary</li>  
 </ul>
 
+<br>
+<hr>
+<br>
+
 ## Tecnologias utilizadas 💾
 
 ![GIT](https://img.shields.io/badge/Java-F05032?logo=git&logoColor=white&style=for-the-badge) &nbsp;
