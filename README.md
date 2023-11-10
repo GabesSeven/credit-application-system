@@ -36,7 +36,9 @@
 
 ## Funcionalidades 🛠️
 <br>
+
 ### Cliente (Customer):
+
 <br>
   <ul>
     <li><strong>Cadastrar:</strong>
@@ -64,8 +66,10 @@
       </ul>
     </li>
   </ul>
+<br>
   
 ### Solicitação de Empréstimo (Credit):
+
 <br>
   <ul>
     <li><strong>Cadastrar:</strong>
