@@ -5,8 +5,7 @@
 <hr>
 <br>
 
-## Introdução 
-
+## Introdução 📜
 
 <figure>
 <p align="center">
@@ -15,7 +14,12 @@
 </p>
 </figure>
 
-## Execução
+<br>
+<hr>
+<br>
+
+## Execução 🏃‍♀️
+
 <p>
   No Terminal/Console:
 <ol>
@@ -29,7 +33,7 @@
 <hr>
 <br>
 
-## Funcionalidades
+## Funcionalidades 🛠️
 
 ### Cliente (Customer):
   <ul>
@@ -94,7 +98,7 @@
 <hr>
 <br>
 
-## Links Úteis
+## Links Úteis 🔗
 <ul>
   <li>https://start.spring.io/#!type=gradle-project&language=kotlin&platformVersion=3.0.3&packaging=jar&jvmVersion=17&groupId=me.dio&artifactId=credit-application-system&name=credit-application-system&description=Credit%20Application%20System%20with%20Spring%20Boot%20and%20Kotlin&packageName=me.dio.credit-application-system&dependencies=web,validation,data-jpa,flyway,h2</li>
   <li>https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html</li>
@@ -107,29 +111,7 @@
   <li>https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#glossary</li>  
 </ul>
 
-## Tecnologias utilizadas
-<p align="center">
-     <a alt="Java">
-        <img src="https://img.shields.io/badge/Java-v17-blue.svg" />
-    </a>
-    <a alt="Kotlin">
-        <img src="https://img.shields.io/badge/Kotlin-v1.7.22-purple.svg" />
-    </a>
-    <a alt="Spring Boot">
-        <img src="https://img.shields.io/badge/Spring%20Boot-v3.0.3-brightgreen.svg" />
-    </a>
-    <a alt="Gradle">
-        <img src="https://img.shields.io/badge/Gradle-v7.6-lightgreen.svg" />
-    </a>
-    <a alt="H2 ">
-        <img src="https://img.shields.io/badge/H2-v2.1.214-darkblue.svg" />
-    </a>
-    <a alt="Flyway">
-        <img src="https://img.shields.io/badge/Flyway-v9.5.1-red.svg">
-    </a>
-</p>
-
-## Tecnologias utilizadas 👩🏻‍💻
+## Tecnologias utilizadas 💾
 
 ![GIT](https://img.shields.io/badge/Java-F05032?logo=git&logoColor=white&style=for-the-badge) &nbsp;
 
@@ -158,7 +140,7 @@
 <hr>
 <br>
 
-## 🧑‍💻 Developer
+## Developer 🧑‍💻 
 
 | [<img src="https://avatars.githubusercontent.com/u/37443722?v=4" width=115><br><sub>Gabriel Ferreira</sub>](https://github.com/GabesSeven)
 | :---: 
