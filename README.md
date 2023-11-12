@@ -16,8 +16,8 @@
 	<li>Faça um clone do projeto na sua máquina:<br><code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li><br>
 	<li>Entre na pasta raiz do projeto:<br><code>cd credit-application-system/</code></li><br>
 	<li>Execute o comando:<br> <code>./gradlew bootrun</code></li><br>
-	<li>Em um navegador, utilize a <em>Uniform Resource Locato</em> (<em>URL</em>) para ter acesso ao <strong>Banco de Dados <em>H2</em></strong>:<br><a href='http://localhost:8080/swagger-ui/index.html'>http://localhost:8080/swagger-ui/index.html</a></li><br>
-	<li>Em um navegador, utilize a <em>URL</em> para ter acesso ao <strong>documentaçã</strong> e <strong>testes</strong> dos <strong><em>endpoints</em></strong> com <strong><em>Swagger</em></strong>:<br><a href='http://localhost:8080/h2-console/'>http://localhost:8080/h2-console/</a></li>
+	<li>Em um navegador, utilize a <em>Uniform Resource Locato</em> (<em>URL</em>) para ter acesso ao <strong>Banco de Dados <em>H2</em></strong>:<br><a href='http://localhost:8080/swagger-ui/index.html'>http://localhost:8080/swagger-ui/index.html</a></li><br><em>username</em>: <strong>gabes</strong><br><em>password</em>: <strong>gabes</strong>
+	<li>Em um navegador, utilize a <em>URL</em> para ter acesso ao <strong>documentação</strong> e <strong>testes</strong> dos <strong><em>endpoints</em></strong> com <strong><em>Swagger</em></strong>:<br><a href='http://localhost:8080/h2-console/'>http://localhost:8080/h2-console/</a></li>
 </ol>
 
 <br>
