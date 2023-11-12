@@ -1,7 +1,7 @@
 # <em>Credit Application System</em>
 <br><br>
 <p style="text-align: justify;">
-	<strong><em>Application Programming Interface (API)</em> <em>Full Representational State Transfer (RESTful)</em> Spring Boot</strong> e <strong>Kotlin</strong> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O objetivo é a empresa fornecer gerenciamento simples de Crédito (<em>Credit</em>) para seus <em>Clientes</em> (<em>Customers</em>).
+	<strong><em>Application Programming Interface</strong></em> (<strong><em>API</strong></em>) <strong><em>Full Representational State Transfer</strong></em> (<strong><em>RESTful</strong></em>) desenvolvida utilizando <strong><em>Spring Boot</strong></em> e <strong><em>Kotlin</strong></em> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O <strong>objetivo</strong> é a empresa <strong>fornecer gerenciamento simples</strong> de <strong>Crédito</strong> (<em><strong>Credit</strong></em>) para seus <strong>Clientes</strong> (<strong><em>Customers</em></strong>).
 <p/>
 
 <br>
@@ -13,9 +13,7 @@
 <p style="text-align: justify;">
   No Terminal/Console:
 <ol>
-	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
-	<li>Entre na pasta raiz do projeto: <code>cd credit-application-system/</code></li> 
-	<li>Execute o comando: <code>./gradlew bootrun</code></li>
+	<li>Faça um clone do projeto na sua máquina. Entre na pasta raiz do projeto. Execute o comando: <code>git clone git@github.com:GabesSeven/credit-application-system.git && cd credit-application-system/ && /gradlew bootrun</code></li>
 </ol>
 </p>
 
@@ -26,58 +24,58 @@
 ## Funcionalidades 🛠️
 <br><br>
 
-### Cliente (Customer):
+### Cliente (<em>Customer</em>):
 <p style="text-align: justify;">
 <br>
   <ul>
-    <li><strong>Cadastrar:</strong>
+    <li><strong>Cadastrar</strong>:
          <ul>
-            <li><strong>Request: </strong><em>firstName, lastName, cpf, income, email, password, zipCode e street</em></li>
-            <li><strong>Response: </strong><em>String</em></li>
+            <li><strong><em>Request</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>cpf</em>, <em>income</em>, <em>email</em>, <em>password</em>, <em>zipCode</em> e <em>street</em></li>
+            <li><strong><em>Response</em></strong>: <em>String</em></li>
         </ul>
     </li>
-    <li><strong>Editar cadastro:</strong>
+    <li><strong>Editar cadastro</strong>:
       <ul>
-        <li><strong>Request: </strong><em>id, firstName, lastName, income, zipCode, street</em></li>
-        <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
+        <li><strong><em>Request</em></strong>: <em>id</em>, <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>zipCode</em>, <em>street</em></li>
+        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email</em>, <em>income</em>, <em>zipCode</em>, <em>street</em></li>
       </ul>
     </li>  
-    <li><strong>Visualizar perfil:</strong>
+    <li><strong>Visualizar perfil</strong>:
       <ul>
-        <li><strong>Request: </strong> <em>id</em></li>
-        <li><strong>Response: </strong><em>firstName, lastName, income, cpf, email, income, zipCode, street</em></li>
+        <li><strong><em>Request</em></strong>: <em>id</em></li>
+        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email<em>, <em>income</em>, <em>zipCode</em>, street</em></li>
       </ul> 
     </li>
-    <li><strong>Deletar cadastro:</strong>
+    <li><strong>Deletar cadastro</strong>:
       <ul>
-        <li><strong>Request: </strong><em>id</em></li>
-        <li><strong>Response: </strong><em>sem retorno</em></li>
+        <li><strong><em>Request</em></strong>: <em>id</em></li>
+        <li><strong><em>Response</em></strong>: <em>sem retorno</em></li>
       </ul>
     </li>
   </ul>
 <br>
 </p>
 	
-### Solicitação de Empréstimo (Credit):
+### Solicitação de Empréstimo (<em>Credit</em>):
 <p style="text-align: justify;">
 <br>
   <ul>
     <li><strong>Cadastrar:</strong>
        <ul>
-          <li><strong>Request: </strong><em>creditValue, dayFirstOfInstallment, numberOfInstallments e customerId</em></li>
-          <li><strong>Response: </strong><em>String</em></li>
+          <li><strong><em>Request</em></strong>: <em>creditValue</em>, <em>dayFirstOfInstallment</em>, <em>numberOfInstallments</em> e <em>customerId</em></li>
+          <li><strong><em>Response</em></strong>: <em>String</em></li>
       </ul>
     </li>
     <li><strong>Listar todas as solicitações de emprestimo de um cliente:</strong>
       <ul>
-        <li><strong>Request: </strong><em>customerId</em></li>
-        <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment</em></li>
+        <li><strong><em>Request</em></strong>: <em>customerId</em></li>
+        <li><strong><em>Response</em></strong>: <em>creditCode</em>, <em>creditValue</em>, <em>numberOfInstallment</em></li>
       </ul> 
     </li>
     <li><strong>Visualizar um emprestimo:</strong>
       <ul>
-        <li><strong>Request: </strong><em>customerId e creditCode</em></li>
-        <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment, status, emailCustomer e incomeCustomer</em></li>
+        <li><strong><em>Request</em></strong>: <em>customerId</em> e <em>creditCode</em></li>
+        <li><strong><em>Response</em></strong>: <em>creditCode</em>, <em>creditValue</em>, <em>numberOfInstallment</em>, <em>status</em>, <em>emailCustomer</em> e <em>incomeCustomer</em></li>
       </ul> 
     </li>
   </ul>
@@ -88,7 +86,7 @@
 <figure>
 <p align="center">
   <img src="https://i.imgur.com/7phya16.png" height="450" width="650" alt="API para Sistema de Avaliação de Créditos"/><br>
-  Diagrama UML Simplificado de uma API para Sistema de Avaliação de Crédito
+  Diagrama <em>Unified Modeling Language (UML)</em> Simplificado de uma </em>API Credit Application System</em>
 </p>
 </figure>
 
