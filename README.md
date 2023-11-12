@@ -13,9 +13,9 @@
 <p style="text-align: justify;">
   No Terminal/Console:
 <ol>
-	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</li><br>
-	<li>Entre na pasta raiz do projeto: <code>gcd credit-application-system/</code></li><br> 
-	<li>Execute o comando: <code>/gradlew bootrun</code><li> <br>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</li>
+	<li>Entre na pasta raiz do projeto: <code>gcd credit-application-system/</code></li> 
+	<li>Execute o comando: <code>/gradlew bootrun</code></li> <br>
 		
 </ol>
 </p>
