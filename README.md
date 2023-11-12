@@ -11,7 +11,7 @@
 ## Execução 🏃‍♀️
 <br><br>
 
-<p>No Terminal/Console:</p>
+<p>No <strong>Terminal</strong> <em>/ <strong>Console</em></strong>:</p>
 <ol>
 	<li>Faça um clone do projeto na sua máquina:<br><code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li><br>
 	<li>Entre na pasta raiz do projeto:<br><code>cd credit-application-system/</code></li><br>
