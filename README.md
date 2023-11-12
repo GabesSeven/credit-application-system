@@ -2,7 +2,7 @@
 <br><br>
 <p style="text-align: justify;">
 	<strong><em>Application Programming Interface</strong></em> (<strong><em>API</strong></em>) <strong><em>Full Representational State Transfer</strong></em> (<strong><em>RESTful</strong></em>) desenvolvida utilizando <strong><em>Spring Boot</strong></em> e <strong><em>Kotlin</strong></em> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O <strong>objetivo</strong> é a empresa <strong>fornecer gerenciamento simples</strong> de <strong>Crédito</strong> (<em><strong>Credit</strong></em>) para seus <strong>Clientes</strong> (<strong><em>Customers</em></strong>).
-<p/>
+</p>
 
 <br>
 <hr>
