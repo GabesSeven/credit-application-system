@@ -1,8 +1,8 @@
 # API - Sistema de Avaliação de Créditos
 <br><br>
-
-<strong><em>Application Programming Interface (API)</em> <em>Full Representational State Transfer (RESTful)</em> Spring Boot</strong> e <strong>Kotlin</strong> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O objetivo é a empresa fornecer gerenciamento simples de Crédito (<em>Credit</em>) para seus <em>Clientes</em> (<em>Customers</em>).
-
+<p style="text-align: justify;">
+	<strong><em>Application Programming Interface (API)</em> <em>Full Representational State Transfer (RESTful)</em> Spring Boot</strong> e <strong>Kotlin</strong> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O objetivo é a empresa fornecer gerenciamento simples de Crédito (<em>Credit</em>) para seus <em>Clientes</em> (<em>Customers</em>).
+<p/>
 
 <br>
 <hr>
@@ -10,7 +10,7 @@
 
 ## Execução 🏃‍♀️
 <br><br>
-<p>
+<p style="text-align: justify;">
   No Terminal/Console:
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
@@ -27,6 +27,7 @@
 <br><br>
 
 ### Cliente (Customer):
+<p style="text-align: justify;">
 <br>
   <ul>
     <li><strong>Cadastrar:</strong>
@@ -55,8 +56,10 @@
     </li>
   </ul>
 <br>
-  
+</p>
+	
 ### Solicitação de Empréstimo (Credit):
+<p style="text-align: justify;">
 <br>
   <ul>
     <li><strong>Cadastrar:</strong>
@@ -77,6 +80,8 @@
         <li><strong>Response: </strong><em>creditCode, creditValue, numberOfInstallment, status, emailCustomer e incomeCustomer</em></li>
       </ul> 
     </li>
+  </ul>
+</p>
 
 <br><br><br>
 
@@ -127,7 +132,7 @@
 ### Spring Framework
 <br><br>
 
-
+<p style="text-align: justify;">
 Uma das <strong>principais características</strong> do <strong><em>Spring Framework</em></strong> é a <em><strong>Inversion of Control</em></strong> (<em><strong>IoC</em></strong>) que permite que o <em><strong>Spring Container</em></strong> gerencie a <strong>criação</strong> e <strong>injeção</strong> de <strong>dependências</strong> entre os componentes, <strong>reduz</strong> o <strong>acoplamento</strong> entre classes e torna o <strong>código flexível<strong> e <strong>fácil de manter</strong>. O <strong><em>Spring</em> “inverte o controle” das instâncias</strong> das mãos <strong>do programador</strong> através da palavra “new” <strong>para o agente externo</strong> a sua classe. 
 <br>
 <em><strong>Dependency Injection</em></strong> (<em><strong>DI</em></strong>), <strong>uma forma de <em>IoC</em></strong>, onde as <strong>dependências</strong> de um componente são <strong>fornecidas externamente</strong>, <strong>tornando</strong> o código <strong>modular</strong> e <strong>facilitando testes</strong>. 
@@ -197,6 +202,7 @@ Em uma pasta separada denominada “<strong><em>entity</em></strong>”, <strong
 <strong></em>Spring Data JPA</em></strong> é uma framework relacionada ao projeto <strong></em>Spring Data</em></strong> e possui como finalidade tornar a <strong>integração</strong> de aplicações <strong></em>Spring</em></strong> com a <strong></em>JPA</em></strong> cujo <strong>escopo envolve gerenciar a implementação</strong> do <strong></em>ORM</em></strong> a serem <strong>implementados</strong>, ou seja, <strong>camada intermediária</strong> ao <strong></em>JDBC</em></strong>, parte do contêiner <strong></em>Java EE</em></strong> que <strong>gerencia as conexões com o banco de dados</strong>. <strong></em>ORM</em></strong>, técnica para aproximar o paradigma de <strong>POO</strong> ao paradigma do <strong></em>RDBMS</em></strong>.
 
 <strong><em>implementa</em></strong> a especificação <strong></em>JPA</em></strong> e <strong></em>Flyway</em></strong> é uma ferramenta responsável por <strong>versionar a base de dados</strong>. Permite <strong>sincronizar</strong> o <strong>banco de dados</strong> com a <strong>versão da aplicação</strong>, <strong>analisar registros de logs</strong> (<strong></em>scripts Structured Query Language</em></strong> - <strong></em>SQL</em></strong>) <strong>executados ou não</strong>, <strong>automatização</strong> com <strong></em>scripts</em></strong>, <strong>criar</strong> novo <strong>banco de dados</strong>, executar <strong></em>rollback</em></strong> de <strong>mudanças</strong> no <strong>banco de dados</strong>.
+</p>
 
 <br><br><br>
 
