@@ -97,7 +97,7 @@
 <hr>
 <br>
 
-## Tecnologias utilizadas 💾
+## Tecnologias Utilizadas 💾
 <br><br>
 
 ![GIT](https://img.shields.io/badge/git-F05032?logo=git&logoColor=white&style=for-the-badge) &nbsp;
