@@ -145,7 +145,7 @@
 ### Apache
 <br><br>
 
-	<em><strong>Apache Maven</strong></em> é uma ferramenta de <strong>automação</strong> e <strong>gerenciamento de projetos <em>Java</em></strong>. 
+<em><strong>Apache Maven</strong></em> é uma ferramenta de <strong>automação</strong> e <strong>gerenciamento de projetos <em>Java</em></strong>. 
 
 <br><br>
 
