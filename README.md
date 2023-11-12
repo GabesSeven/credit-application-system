@@ -1,7 +1,7 @@
 # <em>Credit Application System</em>
 <br><br>
 <p style="text-align: justify;">
-	<strong><em>Application Programming Interface</strong></em> (<strong><em>API</strong></em>) <strong><em>Full Representational State Transfer</strong></em> (<strong><em>RESTful</strong></em>) desenvolvida utilizando <strong><em>Spring Boot</strong></em> e <strong><em>Kotlin</strong></em> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O <strong>objetivo</strong> é a empresa <strong>fornecer gerenciamento simples</strong> de <strong>Crédito</strong> (<em><strong>Credit</strong></em>) para seus <strong>Clientes</strong> (<strong><em>Customers</em></strong>).
+	<strong><em>Application Programming Interface</strong></em> (<strong><em>API</strong></em>) <strong><em>Full Representational State Transfer</strong></em> (<strong><em>RESTful</strong></em>) desenvolvida utilizando <strong><em>Spring Boot</em></strong>, <strong><em>Kotlin</em></strong> e <strong>Banco de Dados <em>H2</em></strong> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O <strong>objetivo</strong> é a empresa <strong>fornecer gerenciamento simples</strong> de <strong>Crédito</strong> (<em><strong>Credit</strong></em>) para seus <strong>Clientes</strong> (<strong><em>Customers</em></strong>).
 </p>
 
 <br>
@@ -16,6 +16,9 @@
 	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
 	<li>Entre na pasta raiz do projeto: <code>cd credit-application-system/</code></li> 
 	<li>Execute o comando: <code>./gradlew bootrun</code></li>
+	<li>Em um navegador, utilize a <em>Uniform Resource Locato</em> (<em>URL</em>) para ter acesso ao <strong>Banco de Dados <em>H2</em></strong>: <a href='http://localhost:8080/swagger-ui/index.html'>http://localhost:8080/swagger-ui/index.html</a></li>
+	<li>Em um navegador, utilize a <em>URL</em> para ter acesso ao <strong>documentaçã</strong> e <strong>testes</strong> dos <strong><em>endpoints</em></strong> com <strong><em>Swagger</em></strong>: <a href='http://localhost:8080/h2-console/'>http://localhost:8080/h2-console/</a></li>
+	
 </ol>
 
 <br>
