@@ -116,7 +116,7 @@
 
 ![SWAGGER](https://img.shields.io/badge/swagger-85EA2D?logo=swagger&logoColor=white&style=for-the-badge) &nbsp;
 
-![H2 DATABASE](https://img.shields.io/badge/databricks-FF3621?logo=databricks&logoColor=white&style=for-the-badge) &nbsp;
+![H2 DATABASE](https://img.shields.io/badge/H2DATABASE-1316BF?logo=databricks&logoColor=white&style=for-the-badge) &nbsp;
 
 ![HIBERNATE](https://img.shields.io/badge/hibernate-59666C?logo=hibernate&logoColor=white&style=for-the-badge) &nbsp;
 
