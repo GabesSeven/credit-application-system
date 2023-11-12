@@ -12,13 +12,12 @@
 <br><br>
 <p style="text-align: justify;">
   No Terminal/Console:
+</p>
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</li>
 	<li>Entre na pasta raiz do projeto: <code>gcd credit-application-system/</code></li> 
-	<li>Execute o comando: <code>/gradlew bootrun</code></li> <br>
-		
+	<li>Execute o comando: <code>/gradlew bootrun</code></li> 
 </ol>
-</p>
 
 <br>
 <hr>
