@@ -1,4 +1,4 @@
-# API - Sistema de Avaliação de Créditos
+# <em>Credit Application System</em> (Sistema de Avaliação de Créditos)
 <br><br>
 <p style="text-align: justify;">
 	<strong><em>Application Programming Interface (API)</em> <em>Full Representational State Transfer (RESTful)</em> Spring Boot</strong> e <strong>Kotlin</strong> que simula um </strong>sistema de análise e solicitação de crédito</strong>. O objetivo é a empresa fornecer gerenciamento simples de Crédito (<em>Credit</em>) para seus <em>Clientes</em> (<em>Customers</em>).
@@ -14,7 +14,7 @@
   No Terminal/Console:
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
-	<li>Entre na pasta raiz do projeto: <code>cd <nome-pasta-raiz></code></li> 
+	<li>Entre na pasta raiz do projeto: <code>cd credit-application-system/</code></li> 
 	<li>Execute o comando: <code>./gradlew bootrun</code></li>
 </ol>
 </p>
