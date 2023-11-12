@@ -13,7 +13,7 @@
 
 <p>No Terminal/Console:</p>
 <ol>
-	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</li>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone git@github.com:GabesSeven/credit-application-system.git</code></li>
 	<li>Entre na pasta raiz do projeto: <code>cd credit-application-system/</code></li> 
 	<li>Execute o comando: <code>./gradlew bootrun</code></li>
 </ol>
