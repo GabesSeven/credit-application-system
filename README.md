@@ -46,7 +46,7 @@
     <li><strong>Visualizar perfil</strong>:
       <ul>
         <li><strong><em>Request</em></strong>: <em>id</em></li>
-        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email<em>, <em>income</em>, <em>zipCode</em>, street</em></li>
+        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email<em>, <em>income</em>, <em>zipCode</em>, <em>street</em></li>
       </ul> 
     </li>
     <li><strong>Deletar cadastro</strong>:
@@ -65,7 +65,7 @@
   <ul>
     <li><strong>Cadastrar:</strong>
        <ul>
-          <li><strong><em>Request</em></strong>: <em>creditValue</em>, <em>dayFirstOfInstallment</em>, <em>numberOfInstallments</em> e <em>customerId</em></li>
+          <li><strong><em>Request</em></strong>: <em>creditValue</em>, <em>dayFirstOfInstallment</em>, <em>numberOfInstallments</em>, <em>customerId</em></li>
           <li><strong><em>Response</em></strong>: <em>String</em></li>
       </ul>
     </li>
@@ -77,8 +77,8 @@
     </li>
     <li><strong>Visualizar um emprestimo:</strong>
       <ul>
-        <li><strong><em>Request</em></strong>: <em>customerId</em> e <em>creditCode</em></li>
-        <li><strong><em>Response</em></strong>: <em>creditCode</em>, <em>creditValue</em>, <em>numberOfInstallment</em>, <em>status</em>, <em>emailCustomer</em> e <em>incomeCustomer</em></li>
+        <li><strong><em>Request</em></strong>: <em>customerId</em>, <em>creditCode</em></li>
+        <li><strong><em>Response</em></strong>: <em>creditCode</em>, <em>creditValue</em>, <em>numberOfInstallment</em>, <em>status</em>, <em>emailCustomer</em>, <em>incomeCustomer</em></li>
       </ul> 
     </li>
   </ul>
