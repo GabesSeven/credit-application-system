@@ -46,7 +46,7 @@
     <li><strong>Visualizar perfil</strong>:
       <ul>
         <li><strong><em>Request</em></strong>: <em>id</em></li>
-        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email<em>, <em>income</em>, <em>zipCode</em>, <em>street</em></li>
+        <li><strong><em>Response</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>income</em>, <em>cpf</em>, <em>email</em>, <em>income</em>, <em>zipCode</em>, <em>street</em></li>
       </ul> 
     </li>
     <li><strong>Deletar cadastro</strong>:
