@@ -33,7 +33,7 @@
   <ul>
     <li><strong>Cadastrar</strong>:
          <ul>
-            <li><strong><em>Request</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>cpf</em>, <em>income</em>, <em>email</em>, <em>password</em>, <em>zipCode</em> e <em>street</em></li>
+            <li><strong><em>Request</em></strong>: <em>firstName</em>, <em>lastName</em>, <em>cpf</em>, <em>income</em>, <em>email</em>, <em>password</em>, <em>zipCode</em>, <em>street</em></li>
             <li><strong><em>Response</em></strong>: <em>String</em></li>
         </ul>
     </li>
